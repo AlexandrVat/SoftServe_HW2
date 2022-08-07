@@ -41,7 +41,7 @@ function CtoF() {
     let grCel = document.getElementById("grCelsius").value;
 
     if(grCel >= -273  && !isNaN(grCel)){
-        document.getElementById("grFahrenheit").value =  grCel*1.8;
+        document.getElementById("grFahrenheit").value =  grCel*1.8+32;
     }
     else{
         document.getElementById("grFahrenheit").value = 0;
